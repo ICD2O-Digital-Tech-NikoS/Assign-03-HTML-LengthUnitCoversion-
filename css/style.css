@@ -38,17 +38,20 @@ h3 {
 
 .dropdown button {
   background-color: hsl(0, 0%, 80%);
-  color: white;
+  color: black;
   padding: 10px 15px;
   border:none;
   cursor: pointer;
 }
 
-.dropdown a {
+.content button {
   display: block;
   color: black;
   text-decoration: none;
   padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  width: 100px;
 }
 
 .dropdown .content {
@@ -64,9 +67,9 @@ h3 {
 }
 
 .dropdown:hover button {
-  background-color: hsl(0, 0%, 70%);
+  background-color: hsl(0, 0%, 85%);
 }
 
-.dropdown a:hover {
-  background-color: hsl(0, 0%, 90%);
+.content button:hover {
+  background-color: hsl(0, 0%, 100%);
 }

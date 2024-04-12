@@ -33,16 +33,14 @@
       <div class="dropdown">
         <button>Units</button>
         <div class="content">
-          <a href="#">Kilometers</a>
-          <a href="#">Meters</a>
+          <button id="kilometer" onclick="kilometer()">Kilometers</button>
+          <button>Meters</button>
         </div>
       </div>
       <!-- form to get degrees fahrenheit from user -->
       <form action="javascript:convert ()">
-        <label for="units">
-          <script>
-            document.write(unitOfMeasurement)
-          </script>
+        <label for="units" id="units">
+          
         </label>
         <br>
         <input type="number" step="any" id="length" placeholder="Length" /><br><br>
