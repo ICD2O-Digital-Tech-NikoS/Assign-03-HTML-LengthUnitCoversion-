@@ -13,6 +13,6 @@ let unitOfMeasurement = "Kilometers";
 
 document.getElementById("units").innerHTML = unitOfMeasurement + ":";
 
-  document.getElementByPlaceholder("length").innerHTML = unitOfMeasurement;
+  document.getElementByPlaceholder("Kilometers").innerHTML = unitOfMeasurement;
 
 }

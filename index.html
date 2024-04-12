@@ -30,20 +30,19 @@
     <img src="./images/formula.png" alt="formula">
     <h3>Please enter the following:</h3>
     <p>
+      <!-- use if else statement -->
       <div class="dropdown">
         <button>Units</button>
         <div class="content">
           <button id="kilometer" onclick="kilometer()">Kilometers</button>
-          <button>Meters</button>
+          <button id="meters" onclick="meter()">Meters</button>
         </div>
       </div>
+      <br>
       <!-- form to get degrees fahrenheit from user -->
       <form action="javascript:convert ()">
-        <label for="units" id="units">
-          
-        </label>
-        <br>
-        <input type="number" step="any" id="length" placeholder="Length" /><br><br>
+        <label for="units" id="units">Kilometers:</label>
+        <input type="number" step="any" id="kilometers" placeholder="kilometers" /><br><br>
         <input type="submit" value="Calculate">
       </form>
     </p>
