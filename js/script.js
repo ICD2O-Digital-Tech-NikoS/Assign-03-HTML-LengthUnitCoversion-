@@ -14,8 +14,6 @@ function meter() {
 }
 
 
-// replace things with unitOfMeasurement
-let unitOfMeasurement = "Kilometers";
 
 
 
