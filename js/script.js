@@ -5,11 +5,14 @@
 
 "use strict"
 
-kilometer() {
+onclick = kilometer() {
 
-Let unitOfMeasurement = getElementById("units").value;
-  
-let unitOfMeasuremen = "kilometers";
 
+// replace things with unitOfMeasurement
+let unitOfMeasurement = "Kilometers";
+
+document.getElementById("units").innerHTML = unitOfMeasurement + ":";
+
+  document.getElementByPlaceholder("length").innerHTML = unitOfMeasurement;
 
 }
