@@ -31,6 +31,7 @@ function convertm() {
   //dispaly result in display space created in the index.html file
   document.getElementById("num-of-feet").innerHTML = "Result: " + meters + "m is equal to " + feet.toFixed(2) + "ft.";
 
+  // if statement to display an error if the user inputs a 0
   if (meters == 0) {
     document.getElementById("num-of-feet").innerHTML = "Error: Please enter a number greater than 0.";
   }
